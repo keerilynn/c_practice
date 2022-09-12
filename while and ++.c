@@ -26,3 +26,11 @@ int main(void)
 	
 	return 0;
 }
+
+//Output:
+//1 2 3 4 5  1 2 3 4
+//1 2 3 4 5  4 3 2 1
+//
+//--------------------------------
+//Process exited after 0.008468 seconds with return value 0
+//Press any key to continue . . .
