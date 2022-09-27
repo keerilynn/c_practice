@@ -1,10 +1,12 @@
 #include <stdio.h>
+#define FACTOR 8
+#define MAXIMUM 5
 int main(void)
 {
-	int i = 0;
+	int i;
 	
-	for (i=1; i<=5; i++)
-		printf("%d * 8 = %d\n", i, i*8);
+	for (i=1; i<=MAXIMUM; i++)
+		printf("%d * %d = %d\n", i, FACTOR, FACTOR*i);
 		
 	return 0;
 	
@@ -18,5 +20,5 @@ int main(void)
 //5 * 8 = 40
 //
 //--------------------------------
-//Process exited after 0.9691 seconds with return value 0
+//Process exited after 0.9433 seconds with return value 0
 //Press any key to continue . . .
